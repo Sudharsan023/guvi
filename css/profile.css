@@ -1,0 +1,55 @@
+.profcontainer{
+  
+    min-height:100vh;
+     display:flex;
+     background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(26,102,29,1) 35%);
+     align-items: center;
+     justify-content:center;
+     padding:20px;
+ }
+ 
+ .profcontainer form{
+     padding:20px;
+     background-color:white;
+     border-radius: 10px;
+     box-shadow:5px 5px 5px 5px black;
+     width:500px;
+     
+ }
+ .profcontainer form .myorm{
+     width:100%;
+     border-radius: 5px;
+     padding: 12px 14px;
+     font-size:18px;
+     color:var(--black);
+     margin:10px 0;
+ }
+ .profcontainer form input{
+    width:95%;
+    padding:10px;
+    
+}
+ button{
+    width:40%;
+    text-align:  center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(26,102,29,1) 35%);
+    border-radius:10px;
+    padding:8px;
+    color:beige;
+    font-size: 30x;
+
+}
+.but{
+    margin-left:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    }
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
